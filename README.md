@@ -4,18 +4,18 @@
 
 ---
 
-## 👨‍💻 Разработчики
+## Разработчики
 
-- **Кирсанов Тимофей Григорьевич**
-- **Чижов Даниил Дмитриевич**
+- Кирсанов Тимофей Григорьевич
+- Чижов Даниил Дмитриевич
 
 ---
 
-## 📚 О проекте
+## О проекте
 
 Система для просмотра товаров и оформления заказов в книжном магазине «Читай город». Разработана для установки на терминалах при входе в торговые центры.
 
-### Функциональность:
+Функциональность:
 - Просмотр каталога товаров в виде карточек
 - Фильтрация и сортировка товаров
 - Авторизация пользователей (Администратор, Менеджер, Клиент)
@@ -27,49 +27,47 @@
 
 ---
 
-## 🛠 Технологии
+## Технологии
 
-- **C# / .NET 9.0**
-- **WPF** — оконное приложение
-- **ASP.NET Core Web API** — REST API
-- **ASP.NET Core Razor Pages** — веб-приложение
-- **Entity Framework Core** — ORM
-- **MSSQL Server** — база данных
-- **Git** — контроль версий
-
----
-
-## 📦 Необходимые пакеты (NuGet)
-
-### Для проекта `ReadCity.Data`:
-| Пакет | Версия |
-|-------|--------|
-| `Microsoft.EntityFrameworkCore.SqlServer` | 9.0.17 |
-| `Microsoft.Extensions.Configuration` | 9.0.17 |
-| `Microsoft.Extensions.Configuration.Json` | 9.0.17 |
-
-### Для проекта `ReadCity.WPF`:
-| Пакет | Версия |
-|-------|--------|
-| `Microsoft.Extensions.Configuration` | 9.0.17 |
-| `Microsoft.Extensions.Configuration.Json` | 9.0.17 |
-
-### Для проекта `ReadCity.API`:
-| Пакет | Версия |
-|-------|--------|
-| `Microsoft.EntityFrameworkCore.SqlServer` | 9.0.17 |
-| `System.Text.Json` | 9.0.17 |
-
-### Для проекта `ReadCity.Web`:
-| Пакет | Версия |
-|-------|--------|
-| `Microsoft.EntityFrameworkCore.SqlServer` | 9.0.17 |
+- C# / .NET 9.0
+- WPF — оконное приложение
+- ASP.NET Core Web API — REST API
+- ASP.NET Core Razor Pages — веб-приложение
+- Entity Framework Core — ORM
+- MSSQL Server — база данных
+- Git — контроль версий
 
 ---
 
-## 🚀 Запуск проекта
+## Необходимые пакеты (NuGet)
 
-### 1. Клонируй репозиторий
-```bash
-git clone https://github.com/ВАШ_ЛОГИН/Final1101.git
-cd Final1101
+Для всех проектов:
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.Extensions.Configuration
+- Microsoft.Extensions.Configuration.Json
+
+---
+
+## Запуск проекта
+
+Поменяйте строку подключения в:
+1 ReadCity.Data/Context/ReadCityDbContext.cs в методе GetConnectionString
+2 ReadCity\ReadCity.WPF\appsettings.json
+
+---
+
+## Тестовые пользователи
+
+Администратор:
+- Логин: 94d5ous@gmail.com
+- Пароль: uzWC67
+
+Менеджер:
+- Логин: ptec8ym@yahoo.com
+- Пароль: LdNyos
+
+Клиент:
+- Логин: yzls62@outlook.com
+- Пароль: JlFRCZ
+
+---
