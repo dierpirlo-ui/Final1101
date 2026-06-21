@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Resources\icon.png" />
+    <None Remove="Resources\picture.png" />
+    <None Remove="Resources\Products\1.jpg" />
+    <None Remove="Resources\Products\10.jpg" />
+    <None Remove="Resources\Products\11.jpg" />
+    <None Remove="Resources\Products\12.jpg" />
+    <None Remove="Resources\Products\13.jpg" />
+    <None Remove="Resources\Products\14.jpg" />
+    <None Remove="Resources\Products\15.jpg" />
+    <None Remove="Resources\Products\16.jpg" />
+    <None Remove="Resources\Products\17.jpg" />
+    <None Remove="Resources\Products\18.jpg" />
+    <None Remove="Resources\Products\19.jpg" />
+    <None Remove="Resources\Products\2.jpg" />
+    <None Remove="Resources\Products\20.jpg" />
+    <None Remove="Resources\Products\3.jpg" />
+    <None Remove="Resources\Products\4.jpg" />
+    <None Remove="Resources\Products\5.jpg" />
+    <None Remove="Resources\Products\6.jpg" />
+    <None Remove="Resources\Products\7.jpg" />
+    <None Remove="Resources\Products\8.jpg" />
+    <None Remove="Resources\Products\9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\icon.png" />
+    <Resource Include="Resources\picture.png" />
+    <Resource Include="Resources\Products\7.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReadCity.Data\ReadCity.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Products\1.jpg" />
+    <Resource Include="Resources\Products\10.jpg" />
+    <Resource Include="Resources\Products\11.jpg" />
+    <Resource Include="Resources\Products\12.jpg" />
+    <Resource Include="Resources\Products\13.jpg" />
+    <Resource Include="Resources\Products\14.jpg" />
+    <Resource Include="Resources\Products\15.jpg" />
+    <Resource Include="Resources\Products\16.jpg" />
+    <Resource Include="Resources\Products\17.jpg" />
+    <Resource Include="Resources\Products\18.jpg" />
+    <Resource Include="Resources\Products\19.jpg" />
+    <Resource Include="Resources\Products\2.jpg" />
+    <Resource Include="Resources\Products\20.jpg" />
+    <Resource Include="Resources\Products\3.jpg" />
+    <Resource Include="Resources\Products\4.jpg" />
+    <Resource Include="Resources\Products\5.jpg" />
+    <Resource Include="Resources\Products\6.jpg" />
+    <Resource Include="Resources\Products\8.jpg" />
+    <Resource Include="Resources\Products\9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

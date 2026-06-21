@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="D:/RPM/ReadCity/ReadCity.Data/ReadCity.Data.csproj" Id="1b7d7744-5b5c-4ee6-8dbd-e47881704628" />
+  <Project Path="ReadCity.API/ReadCity.API.csproj" Id="87a734cd-1471-4cc3-a681-a4f1f0edadc4" />
+  <Project Path="ReadCity.Web/ReadCity.Web.csproj" Id="502a10a7-9934-43a9-8446-dc4f6ae6aaa1" />
+  <Project Path="ReadCity.WPF/ReadCity.WPF.csproj" Id="e86c1f12-bdbc-4f51-ab79-6e6a74cba933" />
+</Solution>
