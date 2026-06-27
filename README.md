@@ -52,7 +52,7 @@
 
 Поменяйте строку подключения в:
 1. ReadCity.Data/Context/ReadCityDbContext.cs в методе GetConnectionString
-2. ReadCity\ReadCity.WPF\appsettings.json
+2. ReadCity/ReadCity.WPF/appsettings.json
 
 ---
 
